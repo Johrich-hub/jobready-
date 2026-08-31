@@ -458,3 +458,24 @@ footer p {
     }
 
   }
+.ai-button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    background: #eef4ff;
+    color: #2563eb;
+    border: 1px solid #bfdbfe;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ai-button:hover {
+    background: #dbeafe;
+}
+
+.ai-message {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #667085;
+}
