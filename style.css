@@ -1,0 +1,1616 @@
+
+Absolutely. 🔥 Step 2 is where JobReady starts becoming a real website.
+
+We're going to design the MVP (Minimum Viable Product) first. The goal is to make it simple enough to build for free, but useful enough that someone would eventually pay for it.
+
+🚀 JOBREADY — STEP 2: DESIGN THE WEBSITE
+1. The JobReady homepage
+When someone visits JobReady, I want the first screen to immediately answer three questions:
+
+What is this?
+Why should I use it?
+What do I click?
+
+Homepage layout
+------------------------------------------------
+                    JOBREADY
+             Your next job starts here.
+
+       Create a professional job application
+                    in minutes.
+
+             [ CREATE MY CV ]
+
+        ✓ Professional CV
+        ✓ AI-powered improvements
+        ✓ Cover letter
+        ✓ Job application email
+
+------------------------------------------------
+
+                 HOW IT WORKS
+
+       ① Tell us about yourself
+       ② Add the job you're applying for
+       ③ Let JobReady improve your application
+       ④ Download and apply
+
+------------------------------------------------
+
+                  WHY JOBREADY?
+
+       Create better applications.
+       Apply with confidence.
+       Get job-ready.
+
+------------------------------------------------
+
+                 © 2026 JobReady
+------------------------------------------------
+That's intentionally simple.
+
+We're not going to overwhelm visitors with 30 buttons.
+
+2. The "Create My CV" button
+When someone clicks:
+
+CREATE MY CV
+they go to:
+
+Step 1 — Personal Information
+They see:
+
+Let's start with the basics
+
+First Name
+Last Name
+Phone Number
+Email Address
+Location
+LinkedIn (optional)
+
+Then:
+
+[ Continue → ]
+3. Step 2 — Education
+The next screen:
+
+🎓 Your Education
+Fields:
+
+School/Institution
+
+Qualification
+
+Field of Study
+
+Start Year
+
+End Year
+
+Example:
+
+University of Namibia
+Bachelor of Business Administration
+2022–2025
+
+Button:
+
++ Add another qualification
+
+Then:
+
+[ ← Back ] [ Continue → ]
+4. Step 3 — Work Experience
+💼 Your Experience
+The user enters:
+
+Job Title
+
+Company
+
+Location
+
+Start Date
+
+End Date
+
+Then:
+
+What did you do?
+A large text box.
+
+The user might write:
+
+"I worked at Shoprite and helped customers."
+
+And here's where JobReady becomes useful.
+
+We can have a button:
+
+✨ Improve with AI
+JobReady could turn that into:
+
+"Provided friendly customer service, assisted customers with product enquiries, and supported daily store operations."
+
+That's one of the features people will love.
+
+5. Step 4 — Skills
+⭐ Your Skills
+The user can add:
+
+Communication
+
+Customer Service
+
+Microsoft Word
+
+Microsoft Excel
+
+Teamwork
+
+Leadership
+
+Time Management
+
+We could allow them to type:
+
+[ Add a skill + ]
+
+Eventually JobReady can recommend skills based on the job advertisement.
+
+6. Step 5 — The Job Advertisement 🔥
+This is where our product becomes different from a normal CV builder.
+
+🎯 What job are you applying for?
+We give the user a big text box:
+
+Paste the job advertisement here...
+
+Example:
+
+RECEPTIONIST WANTED
+
+We are looking for a friendly and
+professional receptionist.
+
+Requirements:
+- Good communication skills
+- Computer literacy
+- Customer service experience
+- Good organisational skills
+Then:
+
+[ ANALYSE JOB ]
+JobReady analyses the advertisement.
+
+7. Job Analysis
+The website then displays:
+
+🎯 JobReady Analysis
+Job Title:
+
+Receptionist
+
+Important skills detected:
+✅ Communication
+✅ Customer Service
+✅ Computer Literacy
+✅ Organisation
+✅ Professionalism
+
+Your CV matches:
+4/5 requirements
+
+That's powerful.
+
+And we can say:
+
+"Here's how you can improve your application."
+
+For example:
+
+Missing/weak area:
+
+Customer service experience
+
+JobReady could ask:
+
+"Have you worked with customers before?"
+
+The user can answer.
+
+Then JobReady incorporates that information.
+
+Important: We should design this so the AI never invents qualifications or work experience. It should improve what the person actually tells us.
+
+8. Step 6 — Choose your CV
+Now:
+
+📄 Choose Your CV Design
+Initially, we'll only have 3 templates.
+
+Template 1
+Professional
+
+Clean and simple.
+
+Template 2
+Modern
+
+Slightly more stylish.
+
+Template 3
+Classic
+
+Traditional business CV.
+
+Don't worry about making 50 templates.
+
+Three good ones are enough for our MVP.
+
+9. Step 7 — Your CV
+Now JobReady generates the CV.
+
+At the top:
+
+JOHN NOBLE
+Administration Assistant
+
+📞 Phone
+✉️ Email
+📍 Namibia
+
+PROFESSIONAL PROFILE
+AI-generated professional summary based on the user's actual information.
+
+WORK EXPERIENCE
+Company — Position
+
+2024–2026
+
+Professional bullet point
+
+Professional bullet point
+
+Professional bullet point
+
+EDUCATION
+Qualification
+Institution
+Year
+
+SKILLS
+Communication • Customer Service • Microsoft Office • Teamwork
+
+REFERENCES
+Available upon request
+
+And on the side:
+
+[ Edit ]
+[ Improve with AI ]
+[ Download PDF ]
+10. Step 8 — Cover Letter
+Next:
+
+💌 Your Cover Letter
+JobReady generates a cover letter based on:
+
+The user's information
+
+Their CV
+
+The job advertisement
+
+The user can edit it.
+
+Then:
+
+[ Copy ]
+or eventually:
+
+[ Download PDF ]
+11. Step 9 — Application Email
+Then:
+
+📧 Your Application Email
+JobReady generates:
+
+Subject: Application for Receptionist Position
+
+And the email.
+
+The user clicks:
+
+[ Copy Email ]
+And pastes it into Gmail, Outlook, etc.
+
+12. The final screen
+This is where we eventually introduce payment.
+
+The user sees:
+
+🎉 Your application is ready!
+Your CV ✅
+
+Cover Letter ✅
+
+Application Email ✅
+
+Then:
+
+FREE
+Preview your application.
+
+JOBREADY PREMIUM
+N$39
+
+Unlock:
+
+✅ High-quality PDF download
+✅ AI CV improvement
+✅ Tailored cover letter
+✅ Job application email
+✅ Job-match analysis
+
+[ Unlock My Application ]
+This is where we'll eventually connect a payment provider.
+
+🔥 Our complete user journey
+So the MVP becomes:
+
+             JOBREADY
+                 ↓
+          CREATE MY CV
+                 ↓
+        PERSONAL INFORMATION
+                 ↓
+             EDUCATION
+                 ↓
+         WORK EXPERIENCE
+                 ↓
+              SKILLS
+                 ↓
+        JOB ADVERTISEMENT
+                 ↓
+          AI JOB ANALYSIS
+                 ↓
+          CHOOSE TEMPLATE
+                 ↓
+             YOUR CV
+                 ↓
+           COVER LETTER
+                 ↓
+         APPLICATION EMAIL
+                 ↓
+          DOWNLOAD / PAY
+That's a real product, not just a homepage.
+
+🛠️ Now comes Step 3
+We have the concept and the complete user journey.
+
+For Step 3, we're going to actually start building.
+
+We'll decide:
+
+Where the website will live
+What free tools we'll use
+Where the AI comes from
+Where we store users' information
+How we generate PDFs
+How we eventually accept payments
+And most importantly:
+
+I'll start giving you the actual files/code for JobReady.
+We'll build the first working homepage first, test it, and then add each feature one at a time.
+
+You don't need to pay for anything yet.
+
+When you're ready, say "Step 3" and we'll start building the first version of JobReady.
+
+
+Step 3
+
+Absolutely. 🔥 Step 3 is the technical setup. Before we write the actual JobReady code, we need to choose a stack that lets you get the first version online for N$0.
+
+I’d recommend we keep it simple and avoid paying for a domain, server, database, or AI API at the beginning.
+
+🚀 JOBREADY — STEP 3: BUILDING THE FREE MVP
+Our first technology stack
+Part	What we'll use	Cost
+Website	HTML + CSS + JavaScript	N$0
+Hosting	GitHub Pages	N$0
+Code storage	GitHub	N$0
+Database	Add later	N$0 initially
+AI	Add after basic site works	Initially N$0
+PDF generation	Browser-based	N$0
+Domain	Free GitHub address initially	N$0
+The first version could therefore live at something like:
+
+yourusername.github.io/jobready
+
+We can worry about buying jobready.com later. Don't spend money on a domain yet.
+
+🧱 What we're building first
+We're going to build Version 0.1 first.
+
+It will have:
+
+🏠 Homepage
+JOBREADY
+
+Your next job starts here.
+
+[ Create My CV ]
+
+📝 CV Builder
+The user enters:
+
+Personal Information
+
+Name
+
+Phone
+
+Email
+
+Location
+
+Education
+
+Institution
+
+Qualification
+
+Years
+
+Experience
+
+Job title
+
+Company
+
+Description
+
+Skills
+
+Skills
+
+👀 CV Preview
+As the user enters their information, JobReady creates a professional-looking CV preview.
+
+Then:
+
+[ Download CV ]
+
+Why we're doing it this way
+We don't start with AI.
+
+I know that sounds strange because we're calling it an AI CV platform.
+
+But there's a reason.
+
+If we immediately build:
+
+Website + accounts + AI + payments + database + PDF system + job analysis
+
+we're making the project unnecessarily complicated.
+
+Instead:
+
+Version 0.1
+Build CV → Preview CV → Download CV
+
+↓
+
+Version 0.2
+Add:
+
+AI CV improvement
+
+↓
+
+Version 0.3
+Add:
+
+Job advertisement analysis
+
+↓
+
+Version 0.4
+Add:
+
+Cover letter + application email
+
+↓
+
+Version 1.0
+Add:
+
+Accounts + payments + saved applications
+
+That's much safer.
+
+🖥️ Your first JobReady files
+Our website will initially consist of three files:
+
+JOBREADY/
+│
+├── index.html
+├── style.css
+└── script.js
+index.html
+The actual structure of the website.
+
+style.css
+The design.
+
+script.js
+Makes the website interactive.
+
+For example:
+
+User clicks "Create My CV"
+
+JavaScript takes them to the CV builder.
+
+🎨 JobReady's initial design
+I recommend a clean professional design.
+
+Think:
+
+LinkedIn + Canva + modern banking app
+
+rather than a flashy gaming website.
+
+The brand could use:
+
+JOBREADY
+Your next job starts here.
+
+Simple.
+
+Professional.
+
+Trustworthy.
+
+📱 Mobile first
+This is VERY important.
+
+Because we're starting in Namibia and eventually targeting Africa, we shouldn't design only for expensive computers.
+
+The website needs to work properly on:
+
+📱 Android phones
+📱 iPhones
+💻 Laptops
+🖥️ Desktop computers
+
+The majority of our users should be able to create a CV from their phone.
+
+🔐 One important thing
+Eventually, JobReady will handle people's:
+
+Names
+
+Phone numbers
+
+Email addresses
+
+Employment history
+
+Education
+
+CVs
+
+So when we move beyond the basic MVP, security and privacy become extremely important.
+
+We shouldn't just throw users' information into a random database.
+
+We'll build that properly when we introduce accounts.
+
+💰 And what about the AI?
+Once the basic CV builder works, we'll connect an AI model.
+
+The flow will be:
+
+USER
+ ↓
+"I worked at a supermarket."
+ ↓
+JOBREADY AI
+ ↓
+"Provided customer service..."
+ ↓
+CV
+Then eventually:
+
+JOB ADVERTISEMENT
+       ↓
+      AI
+       ↓
+Required skills
+       ↓
+Compare with CV
+       ↓
+Suggestions
+       ↓
+Better application
+That's the feature that can eventually justify people paying us.
+
+🌍 The bigger JobReady vision
+We're not just making:
+
+"A CV website."
+
+We're building toward:
+
+JobReady — Your complete AI career assistant
+Eventually:
+
+Create CV
+
+Improve CV
+
+Analyse Job
+
+Write Cover Letter
+
+Write Application Email
+
+Prepare for Interview
+
+Find Jobs
+
+Track Applications
+
+Improve Skills
+
+And eventually employers could use the platform too.
+
+✅ YOUR ACTION FOR STEP 3
+Here's the only thing I need you to do right now:
+
+Create a free GitHub account.
+Go to:
+
+GitHub
+
+Create an account if you don't already have one.
+
+Don't pay for anything.
+
+Once you've created/logged into GitHub, come back and tell me:
+
+"I've created my GitHub account."
+
+Then we'll move to Step 4: I will give you the actual JobReady website files and we'll create the first working version.
+
+
+Step 4
+
+Absolutely. 🔥 Step 4 = we build the first actual version of JobReady.
+
+Since you already have the GitHub account from Step 3, let's make the first MVP without paying for hosting.
+
+One small change from our earlier plan: we'll make the first version a little more useful than a static homepage. It will have a working CV builder + live CV preview + print/save-to-PDF. Then we'll add the AI features afterward.
+
+🏗️ What we're building today
+Your first JobReady version will have:
+
+🏠 Professional homepage
+
+📝 CV information form
+
+👤 Personal details
+
+🎓 Education
+
+💼 Work experience
+
+⭐ Skills
+
+👀 Live CV preview
+
+📄 Save/print as PDF
+
+📱 Mobile-friendly design
+
+The user experience
+JOBREADY
+   ↓
+CREATE MY CV
+   ↓
+Fill in information
+   ↓
+Live CV appears
+   ↓
+PRINT / SAVE AS PDF
+STEP 4A — Create the JobReady repository
+Go to GitHub.
+
+After logging in:
+
+Click + in the top-right.
+
+Select New repository.
+
+Repository name:
+
+jobready
+Select Public.
+
+Select Add a README file.
+
+Click Create repository.
+
+You should now have a repository called:
+
+jobready
+STEP 4B — Create index.html
+Inside your new repository:
+
+Add file → Create new file
+
+Name the file:
+
+index.html
+Delete anything GitHub puts in the editor and paste the code below.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobReady - Your Next Job Starts Here</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">Job<span>Ready</span></div>
+
+    <button class="nav-button" onclick="showBuilder()">
+        Create My CV
+    </button>
+</header>
+
+
+<main>
+
+    <!-- HOME PAGE -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="tagline">YOUR NEXT JOB STARTS HERE</p>
+
+            <h1>
+                Create a professional CV
+                <span>in minutes.</span>
+            </h1>
+
+            <p class="hero-text">
+                JobReady helps you create a professional CV
+                that gives you confidence when applying for jobs.
+            </p>
+
+            <button class="primary-button" onclick="showBuilder()">
+                Create My CV →
+            </button>
+
+        </div>
+
+        <div class="hero-card">
+
+            <div class="mini-cv">
+
+                <div class="cv-avatar">
+                    JR
+                </div>
+
+                <h3>YOUR NAME</h3>
+
+                <p class="mini-job">
+                    Professional Candidate
+                </p>
+
+                <hr>
+
+                <strong>PROFILE</strong>
+
+                <p>
+                    Create a professional CV with JobReady.
+                </p>
+
+                <strong>SKILLS</strong>
+
+                <div class="skill-preview">
+                    Communication
+                    Teamwork
+                    Leadership
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section class="features">
+
+        <h2>Everything you need to get job-ready.</h2>
+
+        <div class="feature-grid">
+
+            <div class="feature">
+                <div class="feature-icon">📝</div>
+                <h3>Build Your CV</h3>
+                <p>
+                    Enter your information and create a professional CV.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">✨</div>
+                <h3>Look Professional</h3>
+                <p>
+                    Present your education, experience and skills clearly.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">📄</div>
+                <h3>Save as PDF</h3>
+                <p>
+                    Print or save your finished CV as a PDF.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CV BUILDER -->
+
+    <section id="builder" class="builder hidden">
+
+        <div class="builder-header">
+
+            <p class="tagline">JOBREADY CV BUILDER</p>
+
+            <h2>Let's build your CV.</h2>
+
+            <p>
+                Fill in your information below.
+                Your CV will update automatically.
+            </p>
+
+        </div>
+
+
+        <div class="builder-layout">
+
+
+            <!-- FORM -->
+
+            <div class="form-container">
+
+                <div class="form-card">
+
+                    <h3>👤 Personal Information</h3>
+
+                    <label>Full Name</label>
+
+                    <input
+                        type="text"
+                        id="fullName"
+                        placeholder="John Smith"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>Professional Title</label>
+
+                    <input
+                        type="text"
+                        id="jobTitle"
+                        placeholder="Administration Assistant"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>Phone Number</label>
+
+                    <input
+                        type="text"
+                        id="phone"
+                        placeholder="+264 81 123 4567"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="john@example.com"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>Location</label>
+
+                    <input
+                        type="text"
+                        id="location"
+                        placeholder="Windhoek, Namibia"
+                        oninput="updateCV()"
+                    >
+
+                </div>
+
+
+                <div class="form-card">
+
+                    <h3>🎓 Education</h3>
+
+                    <label>Qualification</label>
+
+                    <input
+                        type="text"
+                        id="education"
+                        placeholder="Bachelor of Business Administration"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>Institution</label>
+
+                    <input
+                        type="text"
+                        id="institution"
+                        placeholder="University of Namibia"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>Year</label>
+
+                    <input
+                        type="text"
+                        id="educationYear"
+                        placeholder="2022 - 2025"
+                        oninput="updateCV()"
+                    >
+
+                </div>
+
+
+                <div class="form-card">
+
+                    <h3>💼 Work Experience</h3>
+
+                    <label>Job Title</label>
+
+                    <input
+                        type="text"
+                        id="experienceTitle"
+                        placeholder="Sales Assistant"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>Company</label>
+
+                    <input
+                        type="text"
+                        id="company"
+                        placeholder="ABC Company"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>Work Period</label>
+
+                    <input
+                        type="text"
+                        id="workPeriod"
+                        placeholder="2024 - 2026"
+                        oninput="updateCV()"
+                    >
+
+
+                    <label>What did you do?</label>
+
+                    <textarea
+                        id="experience"
+                        rows="5"
+                        placeholder="Describe your responsibilities..."
+                        oninput="updateCV()"
+                    ></textarea>
+
+                </div>
+
+
+                <div class="form-card">
+
+                    <h3>⭐ Skills</h3>
+
+                    <label>Your Skills</label>
+
+                    <textarea
+                        id="skills"
+                        rows="4"
+                        placeholder="Communication, teamwork, Microsoft Word, customer service..."
+                        oninput="updateCV()"
+                    ></textarea>
+
+                </div>
+
+
+                <div class="form-card">
+
+                    <h3>👤 Professional Profile</h3>
+
+                    <label>About You</label>
+
+                    <textarea
+                        id="profile"
+                        rows="5"
+                        placeholder="Write a short description about yourself..."
+                        oninput="updateCV()"
+                    ></textarea>
+
+                </div>
+
+            </div>
+
+
+            <!-- CV PREVIEW -->
+
+            <div class="preview-container">
+
+                <div class="preview-header">
+
+                    <h3>CV Preview</h3>
+
+                    <button
+                        class="download-button"
+                        onclick="printCV()"
+                    >
+                        📄 Save / Print PDF
+                    </button>
+
+                </div>
+
+
+                <div id="cvPreview" class="cv">
+
+                    <h1 id="previewName">
+                        Your Name
+                    </h1>
+
+                    <h2 id="previewJob">
+                        Professional Candidate
+                    </h2>
+
+                    <div class="contact">
+
+                        <span id="previewPhone">
+                            Phone
+                        </span>
+
+                        <span id="previewEmail">
+                            Email
+                        </span>
+
+                        <span id="previewLocation">
+                            Location
+                        </span>
+
+                    </div>
+
+
+                    <section class="cv-section">
+
+                        <h3>PROFILE</h3>
+
+                        <p id="previewProfile">
+                            Your professional profile will appear here.
+                        </p>
+
+                    </section>
+
+
+                    <section class="cv-section">
+
+                        <h3>WORK EXPERIENCE</h3>
+
+                        <h4 id="previewExperienceTitle">
+                            Job Title
+                        </h4>
+
+                        <p id="previewCompany">
+                            Company
+                        </p>
+
+                        <p id="previewWorkPeriod">
+                            Work Period
+                        </p>
+
+                        <p id="previewExperience">
+                            Your work experience will appear here.
+                        </p>
+
+                    </section>
+
+
+                    <section class="cv-section">
+
+                        <h3>EDUCATION</h3>
+
+                        <h4 id="previewEducation">
+                            Qualification
+                        </h4>
+
+                        <p id="previewInstitution">
+                            Institution
+                        </p>
+
+                        <p id="previewEducationYear">
+                            Year
+                        </p>
+
+                    </section>
+
+
+                    <section class="cv-section">
+
+                        <h3>SKILLS</h3>
+
+                        <p id="previewSkills">
+                            Your skills will appear here.
+                        </p>
+
+                    </section>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="logo">Job<span>Ready</span></div>
+
+    <p>Your next job starts here.</p>
+
+    <p>© 2026 JobReady</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+Then click:
+
+Commit changes
+STEP 4C — Create style.css
+Now create another file:
+
+style.css
+Paste:
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f8fc;
+    color: #172033;
+    line-height: 1.6;
+}
+
+.navbar {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    background: white;
+    border-bottom: 1px solid #e8eaf0;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    color: #172033;
+}
+
+.logo span {
+    color: #2563eb;
+}
+
+.nav-button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 650px;
+    padding: 80px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    background: white;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.tagline {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #2563eb;
+}
+
+.hero-text {
+    color: #667085;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.primary-button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 16px 25px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-card {
+    width: 360px;
+}
+
+.mini-cv {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
+}
+
+.cv-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.mini-cv h3 {
+    font-size: 21px;
+}
+
+.mini-job {
+    color: #667085;
+    margin-bottom: 20px;
+}
+
+.mini-cv hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.mini-cv strong {
+    display: block;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.mini-cv p {
+    font-size: 13px;
+    color: #667085;
+}
+
+.skill-preview {
+    font-size: 12px;
+    color: #667085;
+}
+
+.features {
+    padding: 80px 7%;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.feature {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    border: 1px solid #e8eaf0;
+}
+
+.feature-icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #667085;
+}
+
+.builder {
+    padding: 60px 7%;
+}
+
+.builder-header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.builder-header h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.builder-header p {
+    color: #667085;
+}
+
+.builder-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.form-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.form-card h3 {
+    margin-bottom: 20px;
+}
+
+.form-card label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-card input,
+.form-card textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d6d9e0;
+    border-radius: 7px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.form-card input:focus,
+.form-card textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.preview-container {
+    position: sticky;
+    top: 20px;
+    align-self: start;
+}
+
+.preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.download-button {
+    background: #172033;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.cv {
+    background: white;
+    min-height: 900px;
+    padding: 55px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+}
+
+.cv > h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.cv > h2 {
+    color: #2563eb;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: #667085;
+    font-size: 13px;
+    margin: 15px 0 35px;
+}
+
+.cv-section {
+    margin-bottom: 30px;
+}
+
+.cv-section h3 {
+    font-size: 14px;
+    color: #2563eb;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 7px;
+    margin-bottom: 12px;
+}
+
+.cv-section h4 {
+    font-size: 16px;
+}
+
+.cv-section p {
+    color: #4b5563;
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background: #172033;
+    color: white;
+    padding: 45px 7%;
+    text-align: center;
+}
+
+footer .logo {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #cbd5e1;
+    margin: 5px;
+}
+
+
+@media (max-width: 900px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-card {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .builder-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .preview-container {
+        position: static;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .hero {
+        padding: 60px 5%;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .builder {
+        padding: 45px 5%;
+    }
+
+    .cv {
+        padding: 30px;
+    }
+
+    .preview-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+}
