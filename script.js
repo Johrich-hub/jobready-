@@ -201,3 +201,38 @@ function printCV() {
     printWindow.print();
 
                     }
+async function improveExperience() {
+
+    const experience =
+        document.getElementById("experience").value.trim();
+
+    const message =
+        document.getElementById("aiMessage");
+
+    if (!experience) {
+
+        message.textContent =
+            "Please describe your experience first.";
+
+        return;
+    }
+
+    message.textContent =
+        "✨ AI is improving your experience...";
+
+    /*
+        The secure AI connection will be added here
+        in the next part of Step 5.
+
+        We are deliberately NOT putting an
+        API key inside this website.
+    */
+
+    setTimeout(() => {
+
+        message.textContent =
+            "AI connection coming next.";
+
+    }, 1000);
+
+}
