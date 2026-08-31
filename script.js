@@ -218,21 +218,64 @@ async function improveExperience() {
     }
 
     message.textContent =
-        "✨ AI is improving your experience...";
+        "✨ JobReady AI is working...";
 
-    /*
-        The secure AI connection will be added here
-        in the next part of Step 5.
+    try {
 
-        We are deliberately NOT putting an
-        API key inside this website.
-    */
+        const response = await fetch(
+            "https://jobready-ai.johnrnoble99.workers.dev/",
+            {
+                method: "POST",
 
-    setTimeout(() => {
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify({
+                    experience: experience
+                })
+            }
+        );
+
+
+        const data = await response.json();
+
+
+        if (!response.ok) {
+
+            message.textContent =
+                data.error ||
+                "Something went wrong. Please try again.";
+
+            return;
+        }
+
+
+        if (data.improved) {
+
+            document.getElementById("experience").value =
+                data.improved;
+
+            updateCV();
+
+            message.textContent =
+                "✨ Your experience has been improved!";
+
+        } else {
+
+            message.textContent =
+                "The AI did not return an answer.";
+
+        }
+
+
+    } catch (error) {
+
+        console.error(error);
 
         message.textContent =
-            "AI connection coming next.";
+            "Unable to connect to JobReady AI.";
 
-    }, 1000);
+    }
 
 }
