@@ -1,18 +1,644 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>JobReady</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>JobReady | Your Next Job Starts Here</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <h1>JOBREADY</h1>
 
-    <h2>Your next job starts here.</h2>
+<!-- NAVIGATION -->
 
-    <p>Welcome to JobReady!</p>
+<header class="navbar">
 
-    <button>Create My CV</button>
+    <div class="logo">
+        Job<span>Ready</span>
+    </div>
+
+    <button
+        class="nav-button"
+        onclick="showBuilder()">
+
+        Create My CV
+
+    </button>
+
+</header>
+
+
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+    <div class="hero-text">
+
+        <p class="eyebrow">
+            YOUR NEXT JOB STARTS HERE
+        </p>
+
+        <h1>
+            Create a CV that
+            <span>gets you noticed.</span>
+        </h1>
+
+        <p class="description">
+
+            Build a professional CV in minutes
+            and prepare a better job application
+            with JobReady.
+
+        </p>
+
+        <button
+            class="primary-button"
+            onclick="showBuilder()">
+
+            Create My CV →
+
+        </button>
+
+    </div>
+
+
+
+    <!-- CV CARD -->
+
+    <div class="cv-card">
+
+        <div class="cv-top">
+
+            <div class="profile-circle">
+                JR
+            </div>
+
+            <div>
+
+                <h3>
+                    YOUR NAME
+                </h3>
+
+                <p>
+                    Professional Candidate
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="cv-line"></div>
+
+
+        <h5>
+            PROFESSIONAL PROFILE
+        </h5>
+
+        <p class="fake-text">
+            Motivated professional with strong
+            communication and teamwork skills.
+        </p>
+
+
+        <h5>
+            EXPERIENCE
+        </h5>
+
+        <div class="fake-line"></div>
+        <div class="fake-line short"></div>
+
+
+        <h5>
+            SKILLS
+        </h5>
+
+        <div class="skills">
+
+            <span>Communication</span>
+            <span>Teamwork</span>
+            <span>Leadership</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- FEATURES -->
+
+<section class="features">
+
+    <div class="section-title">
+
+        <p class="eyebrow">
+            WHY JOBREADY?
+        </p>
+
+        <h2>
+            Everything you need to get job-ready.
+        </h2>
+
+    </div>
+
+
+
+    <div class="feature-grid">
+
+
+        <div class="feature-card">
+
+            <div class="icon">
+                📝
+            </div>
+
+            <h3>
+                Create Your CV
+            </h3>
+
+            <p>
+                Build a professional CV without
+                struggling with complicated formatting.
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card">
+
+            <div class="icon">
+                ✨
+            </div>
+
+            <h3>
+                Improve Your Application
+            </h3>
+
+            <p>
+                JobReady will help you present your
+                experience and skills professionally.
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card">
+
+            <div class="icon">
+                🎯
+            </div>
+
+            <h3>
+                Target Your Job
+            </h3>
+
+            <p>
+                Eventually, JobReady will analyse
+                job advertisements and help tailor
+                your application.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- BUILDER -->
+
+<section
+    id="builder"
+    class="builder hidden">
+
+
+    <div class="builder-heading">
+
+        <p class="eyebrow">
+            JOBREADY CV BUILDER
+        </p>
+
+        <h2>
+            Let's build your CV.
+        </h2>
+
+        <p>
+            Enter your information and watch
+            your CV come together.
+        </p>
+
+    </div>
+
+
+
+    <div class="builder-grid">
+
+
+        <!-- FORM -->
+
+        <div class="form">
+
+
+            <div class="form-card">
+
+                <h3>
+                    👤 Personal Information
+                </h3>
+
+
+                <label>
+                    Full Name
+                </label>
+
+                <input
+                    id="fullName"
+                    type="text"
+                    placeholder="John Smith"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Professional Title
+                </label>
+
+                <input
+                    id="jobTitle"
+                    type="text"
+                    placeholder="Administration Assistant"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Phone Number
+                </label>
+
+                <input
+                    id="phone"
+                    type="text"
+                    placeholder="+264 81 123 4567"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Email Address
+                </label>
+
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="john@example.com"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Location
+                </label>
+
+                <input
+                    id="location"
+                    type="text"
+                    placeholder="Windhoek, Namibia"
+                    oninput="updateCV()"
+                >
+
+            </div>
+
+
+
+            <div class="form-card">
+
+                <h3>
+                    🎓 Education
+                </h3>
+
+
+                <label>
+                    Qualification
+                </label>
+
+                <input
+                    id="education"
+                    type="text"
+                    placeholder="Bachelor of Business Administration"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Institution
+                </label>
+
+                <input
+                    id="institution"
+                    type="text"
+                    placeholder="University of Namibia"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Year
+                </label>
+
+                <input
+                    id="educationYear"
+                    type="text"
+                    placeholder="2022 - 2025"
+                    oninput="updateCV()"
+                >
+
+            </div>
+
+
+
+            <div class="form-card">
+
+                <h3>
+                    💼 Work Experience
+                </h3>
+
+
+                <label>
+                    Job Title
+                </label>
+
+                <input
+                    id="experienceTitle"
+                    type="text"
+                    placeholder="Sales Assistant"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Company
+                </label>
+
+                <input
+                    id="company"
+                    type="text"
+                    placeholder="ABC Company"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Work Period
+                </label>
+
+                <input
+                    id="workPeriod"
+                    type="text"
+                    placeholder="2024 - 2026"
+                    oninput="updateCV()"
+                >
+
+
+                <label>
+                    Responsibilities
+                </label>
+
+                <textarea
+                    id="experience"
+                    rows="5"
+                    placeholder="Describe what you did..."
+                    oninput="updateCV()">
+                </textarea>
+
+            </div>
+
+
+
+            <div class="form-card">
+
+                <h3>
+                    ⭐ Skills
+                </h3>
+
+
+                <label>
+                    Your Skills
+                </label>
+
+                <textarea
+                    id="skills"
+                    rows="4"
+                    placeholder="Communication, teamwork, Microsoft Word..."
+                    oninput="updateCV()">
+                </textarea>
+
+            </div>
+
+
+
+            <div class="form-card">
+
+                <h3>
+                    👤 Professional Profile
+                </h3>
+
+
+                <label>
+                    About You
+                </label>
+
+                <textarea
+                    id="profile"
+                    rows="5"
+                    placeholder="Tell employers about yourself..."
+                    oninput="updateCV()">
+                </textarea>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- CV PREVIEW -->
+
+        <div class="preview">
+
+
+            <div class="preview-heading">
+
+                <h3>
+                    CV Preview
+                </h3>
+
+                <button
+                    class="download-button"
+                    onclick="printCV()">
+
+                    Save as PDF
+
+                </button>
+
+            </div>
+
+
+
+            <div id="cvPreview" class="cv">
+
+
+                <h1 id="previewName">
+                    Your Name
+                </h1>
+
+                <h2 id="previewJob">
+                    Professional Candidate
+                </h2>
+
+
+                <div class="contact">
+
+                    <span id="previewPhone">
+                        Phone
+                    </span>
+
+                    <span id="previewEmail">
+                        Email
+                    </span>
+
+                    <span id="previewLocation">
+                        Location
+                    </span>
+
+                </div>
+
+
+
+                <div class="cv-section">
+
+                    <h3>
+                        PROFILE
+                    </h3>
+
+                    <p id="previewProfile">
+                        Your professional profile
+                        will appear here.
+                    </p>
+
+                </div>
+
+
+
+                <div class="cv-section">
+
+                    <h3>
+                        EXPERIENCE
+                    </h3>
+
+                    <h4 id="previewExperienceTitle">
+                        Job Title
+                    </h4>
+
+                    <p id="previewCompany">
+                        Company
+                    </p>
+
+                    <p id="previewWorkPeriod">
+                        Work Period
+                    </p>
+
+                    <p id="previewExperience">
+                        Your experience will
+                        appear here.
+                    </p>
+
+                </div>
+
+
+
+                <div class="cv-section">
+
+                    <h3>
+                        EDUCATION
+                    </h3>
+
+                    <h4 id="previewEducation">
+                        Qualification
+                    </h4>
+
+                    <p id="previewInstitution">
+                        Institution
+                    </p>
+
+                    <p id="previewEducationYear">
+                        Year
+                    </p>
+
+                </div>
+
+
+
+                <div class="cv-section">
+
+                    <h3>
+                        SKILLS
+                    </h3>
+
+                    <p id="previewSkills">
+                        Your skills will appear here.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="logo">
+        Job<span>Ready</span>
+    </div>
+
+    <p>
+        Your next job starts here.
+    </p>
+
+    <p>
+        © 2026 JobReady
+    </p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
 
 </body>
-</html>
+
+                    </html>
